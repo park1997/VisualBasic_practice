@@ -10,9 +10,6 @@
         If CheckBox5.Checked = True Then str = str & CheckBox5.Text & Chr(13)
         If CheckBox6.Checked = True Then str = str & CheckBox6.Text & Chr(13)
 
-
         Label2.Text = str
-
-
     End Sub
 End Class
